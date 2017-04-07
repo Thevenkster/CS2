@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/karthikvenkat/kv39/Projects/List/test.cpp
+test.hpp
+/Users/karthikvenkat/kv39/Projects/List/test.hpp
+iostream
+-
+sstream
+-
+string
+-
+unistd.h
+-
+
+/Users/karthikvenkat/kv39/Projects/List/test.hpp
+stdexcept
+-
+

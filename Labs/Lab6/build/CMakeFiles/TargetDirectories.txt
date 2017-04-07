@@ -1,0 +1,4 @@
+/Users/karthikvenkat/kv39/labs/Lab6/build/CMakeFiles/edit_cache.dir
+/Users/karthikvenkat/kv39/labs/Lab6/build/CMakeFiles/rebuild_cache.dir
+/Users/karthikvenkat/kv39/labs/Lab6/build/CMakeFiles/run.dir
+/Users/karthikvenkat/kv39/labs/Lab6/build/CMakeFiles/printout.dir

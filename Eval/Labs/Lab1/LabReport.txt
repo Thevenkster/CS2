@@ -1,0 +1,32 @@
+3460:210- Lab 1  Report
+
+Name:     Venkat,Karthik, Venkat,Karthik
+UANET id: kv39
+
+Generated: Thu Jan 28 21:21:49 EST 2016
+
+hello world
+
+Note:  First column is revision number when that line was last changed.
+
+------------ kv39/Labs/Lab1/hello.cpp ------------
+// Karthik Venkat <kv39@zips.uakron.edu>
+// University of Akron
+//
+// Lab 1
+
+#include <iostream>
+
+int main()
+{
+  std::cout << "hello world\n";
+}
+------------------------------------------------------------------------
+r73 | kv39 | 2016-01-27 15:44:49 -0500 (Wed, 27 Jan 2016) | 1 line
+
+Adding Hello World
+------------------------------------------------------------------------
+r9 | aed27 | 2016-01-24 20:20:35 -0500 (Sun, 24 Jan 2016) | 1 line
+
+Added lab 1 folder
+------------------------------------------------------------------------

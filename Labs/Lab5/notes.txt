@@ -1,0 +1,130 @@
+Output for Question1:
+
+default ctor 0x7fff59b9fbc8
+default ctor 0x7fff59b9fbc0
+dtor 0x7fff59b9fbc0
+dtor 0x7fff59b9fbc8
+
+Two objects of Regular_type are created and called by the function. Since the
+destructor is called before the f() function, only the default constructor and
+destructor outputs are displayed.
+
+Output for Question2:
+
+default ctor 0x7fff53e39bc8
+default ctor 0x7fff53e39bc9
+default ctor 0x7fff53e39bca
+dtor 0x7fff53e39bca
+dtor 0x7fff53e39bc9
+dtor 0x7fff53e39bc8
+
+3 objects in continuous memory addresses are created (like an array) with the
+default constructors and destructors called for each one.
+
+Output for Question3: *
+
+default ctor 0x7fff5ee3ebc8
+default ctor 0x7fff5ee3ebc9
+dtor 0x7fff5ee3ebc1
+dtor 0x7fff5ee3ebc0
+dtor 0x7fff5ee3ebc9
+dtor 0x7fff5ee3ebc8
+
+
+
+Output for Question4:
+
+default ctor 0x7fff54d85bc8
+object: 0x7fff54d85bc8
+member 0x7fff54d85bc8
+dtor 0x7fff54d85bc8
+
+All the addresses printed are the same, since the address of the object and all
+of its member functions are the same.
+
+Output for Question5: *
+
+default ctor 0x7fff5b1bfbc8
+copy ctor 0x7fff5b1bfbc0
+copy ctor 0x7fff5b1bfbb0
+copy ctor 0x7fff5b1bfba8
+dtor 0x7fff5b1bfba8
+dtor 0x7fff5b1bfbb0
+dtor 0x7fff5b1bfbc0
+dtor 0x7fff5b1bfbc8
+
+THe program prints the addresses of the default constructor, copy constructor
+and destructor for all the objects of the calling function. The reason we never
+see "copy assign" is because the assignment operator function is never called,
+
+
+Output for Question6:
+
+default ctor 0x7fff539a6bc8
+default ctor 0x7fff539a6bc0
+default ctor 0x7fff539a6bc1
+default ctor 0x7fff539a6bc2
+copy assign 0x7fff539a6bc0
+copy assign 0x7fff539a6bc1
+copy assign 0x7fff539a6bc2
+dtor 0x7fff539a6bc2
+dtor 0x7fff539a6bc1
+dtor 0x7fff539a6bc0
+dtor 0x7fff539a6bc8
+
+
+
+
+Output for Question7:
+
+default ctor 0x7fff5d1debc8
+copy ctor 0x7fff5d1debc0
+copy ctor 0x7fff5d1debb0
+copy assign 0x7fff5d1debc0
+dtor 0x7fff5d1debb0
+dtor 0x7fff5d1debc0
+dtor 0x7fff5d1debc8
+
+Output for Question8:
+
+default ctor 0x7fff58411bc8
+default ctor 0x7fff58411bc0
+before input_1
+copy ctor 0x7fff58411bb0
+input_1
+dtor 0x7fff58411bb0
+after input_1
+dtor 0x7fff58411bc0
+dtor 0x7fff58411bc8
+
+Output for Question9:
+
+before output_1
+output_1
+default ctor 0x7fff5dd99bc8
+after output_1
+before output_2
+output_2
+default ctor 0x101e69180
+copy ctor 0x7fff5dd99bb8
+after output_2
+before output_2
+output_2
+copy ctor 0x7fff5dd99bb0
+copy assign 0x7fff5dd99bb8
+dtor 0x7fff5dd99bb0
+after output_2
+dtor 0x7fff5dd99bb8
+dtor 0x7fff5dd99bc8
+dtor 0x101e69180
+
+Output for Question10:
+
+For the  "<< " output operator, you pass the ostream object by reference,
+and the Regular_type object by value, since you are displaying the output
+as a value, and you reference the ostream object to overload the operator.
+
+For the  ">> " input operator, you pass both, the istream object, and
+and the Regular_type object by reference, since you are referencing
+the input object to load a value into it,
+ and you reference the ostream object to overload the operator.

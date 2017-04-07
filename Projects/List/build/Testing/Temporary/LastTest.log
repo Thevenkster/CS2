@@ -1,0 +1,33 @@
+Start testing: Apr 22 11:13 EDT
+----------------------------------------------------------
+1/2 Testing: test_string
+1/2 Test: test_string
+Command: "/Users/karthikvenkat/kv39/Projects/List/build/test_string"
+Directory: /Users/karthikvenkat/kv39/Projects/List/build
+"test_string" start time: Apr 22 11:13 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"test_string" end time: Apr 22 11:13 EDT
+"test_string" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: test_list
+2/2 Test: test_list
+Command: "/Users/karthikvenkat/kv39/Projects/List/build/test_list"
+Directory: /Users/karthikvenkat/kv39/Projects/List/build
+"test_list" start time: Apr 22 11:13 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"test_list" end time: Apr 22 11:13 EDT
+"test_list" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 22 11:13 EDT

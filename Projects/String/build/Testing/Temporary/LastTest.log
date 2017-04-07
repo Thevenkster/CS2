@@ -1,0 +1,18 @@
+Start testing: Mar 30 09:49 EDT
+----------------------------------------------------------
+1/1 Testing: test_string
+1/1 Test: test_string
+Command: "/Users/karthikvenkat/kv39/Projects/String/build/test_string"
+Directory: /Users/karthikvenkat/kv39/Projects/String/build
+"test_string" start time: Mar 30 09:49 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_string" end time: Mar 30 09:49 EDT
+"test_string" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 30 09:49 EDT

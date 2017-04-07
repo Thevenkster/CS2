@@ -1,0 +1,40 @@
+Student name: Karthik Venkat
+E-mail: kv39@zips.uakron.edu
+
+Bug 1:
+
+Reason for crash: Performing the >=0 operation, which is always true for size_t data types, which is a type of unsigned integer.
+
+fix: Changed >=0 to >0
+
+Reason for error: v[i] should be changed to v[i-1] during the printing of the output, since v[i] points to a random location in memory while v[i-1] points to the correct index of the vector.
+
+Bug 2:
+
+Reason for crash: Original definition: bool operator == (Fraction a, Fraction b) was: return a == b;. Line changed to:
+
+
+  	if ((a.n == b.n) && (a.d == b.d)) 
+		return true;
+	else
+  		return false;	
+
+Reason for error: Output was originally 1. Included line:
+
+std::cout.setf(std::ios::boolalpha);
+
+which converts the 1 or 0 to a true or false value when displayed.
+
+Bug 3:
+
+Reason for error: 1)Extra { added at the bottom of main function
+
+fix: remove the redundant {
+
+Reason for error: 2) No return type in function int get_number(std::istream &is). 
+
+fix: add line: return result; at the end of get_number function.
+
+Possible error: int tot is not initialized to 0. 
+
+fix: initialize tot with line: int tot = 0;

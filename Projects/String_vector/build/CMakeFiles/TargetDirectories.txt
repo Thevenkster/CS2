@@ -1,0 +1,8 @@
+/Users/karthikvenkat/kv39/Projects/String_vector/build/CMakeFiles/cs2.dir
+/Users/karthikvenkat/kv39/Projects/String_vector/build/CMakeFiles/edit_cache.dir
+/Users/karthikvenkat/kv39/Projects/String_vector/build/CMakeFiles/rebuild_cache.dir
+/Users/karthikvenkat/kv39/Projects/String_vector/build/CMakeFiles/uacs.dir
+/Users/karthikvenkat/kv39/Projects/String_vector/build/CMakeFiles/printout.dir
+/Users/karthikvenkat/kv39/Projects/String_vector/build/CMakeFiles/test_string_vector.dir
+/Users/karthikvenkat/kv39/Projects/String_vector/build/CMakeFiles/test.dir
+/Users/karthikvenkat/kv39/Projects/String_vector/build/CMakeFiles/test_string.dir

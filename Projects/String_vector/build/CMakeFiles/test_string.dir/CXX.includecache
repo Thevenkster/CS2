@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/karthikvenkat/kv39/Projects/String_vector/string.hpp
+test.hpp
+/Users/karthikvenkat/kv39/Projects/String_vector/test.hpp
+cstring
+-
+iosfwd
+-
+
+/Users/karthikvenkat/kv39/Projects/String_vector/test.hpp
+stdexcept
+-
+
+/Users/karthikvenkat/kv39/Projects/String_vector/test_string.cpp
+string.hpp
+/Users/karthikvenkat/kv39/Projects/String_vector/string.hpp
+test.hpp
+/Users/karthikvenkat/kv39/Projects/String_vector/test.hpp
+string
+-
+iostream
+-
+

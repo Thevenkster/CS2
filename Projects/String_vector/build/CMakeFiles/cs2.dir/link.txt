@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libcs2.a  CMakeFiles/cs2.dir/string.cpp.o CMakeFiles/cs2.dir/string_vector.cpp.o CMakeFiles/cs2.dir/memory.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libcs2.a

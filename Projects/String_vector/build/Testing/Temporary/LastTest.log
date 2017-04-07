@@ -1,0 +1,33 @@
+Start testing: Apr 12 15:47 EDT
+----------------------------------------------------------
+1/2 Testing: test_string
+1/2 Test: test_string
+Command: "/Users/karthikvenkat/kv39/Projects/String_vector/build/test_string"
+Directory: /Users/karthikvenkat/kv39/Projects/String_vector/build
+"test_string" start time: Apr 12 15:47 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"test_string" end time: Apr 12 15:47 EDT
+"test_string" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: test_string_vector
+2/2 Test: test_string_vector
+Command: "/Users/karthikvenkat/kv39/Projects/String_vector/build/test_string_vector"
+Directory: /Users/karthikvenkat/kv39/Projects/String_vector/build
+"test_string_vector" start time: Apr 12 15:47 EDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"test_string_vector" end time: Apr 12 15:47 EDT
+"test_string_vector" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 12 15:47 EDT
